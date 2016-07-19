@@ -96,7 +96,7 @@
               '-std=c++11'
             ],
         }],
-        ['OS=="linux"', {
+        ['OS=="windows"', {
             'cflags_cc' : [
               '-D_USE_MATH_DEFINES',
               '-std=c++11'
