@@ -95,6 +95,12 @@
               '-DARCH_K8 -DS2_USE_EXACTFLOAT',
               '-std=c++11'
             ],
+        }],
+        ['OS=="linux"', {
+            'cflags_cc' : [
+              '-D_USE_MATH_DEFINES',
+              '-std=c++11'
+            ],
         }]
       ]
     }
